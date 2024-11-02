@@ -1,0 +1,58 @@
+{
+    "test_WebIdekuLogin": {
+        "TestWebIdekuLogin.test_WebIdekuLogin0001": {
+            "company_brand": "//div[@class='orangehrm-login-branding']//img[@alt='company-branding']",
+            "company_logo": "//img[@alt='orangehrm-logo']",
+            "login_page_title": "//h5[contains(@class,'orangehrm-login-title') and text()='Login']",
+            "username_input": "//input[@name='username']",
+            "password_input": "//input[@name='password']",
+            "login_button": "//button[@type='submit']",
+            "forget_password_button": "//p[contains(@class,'orangehrm-login-forgot-header')]"
+        },
+        "TestWebIdekuLogin.test_WebIdekuLogin0002": {
+            "username_title": "//p[@class='oxd-userdropdown-name']"
+        },
+        "TestWebIdekuLogin.test_WebIdekuLogin0003": {
+            "invalid_credentials_error": "//p[contains(@class, 'oxd-alert-content-text') and text()='Invalid credentials']"
+        },
+        "TestWebIdekuLogin.test_WebIdekuLogin0004": {
+            "invalid_credentials_error": "//p[contains(@class, 'oxd-alert-content-text') and text()='Invalid credentials']"
+        },
+        "TestWebIdekuLogin.test_WebIdekuLogin0005": {
+            "account_required_error": "//input[@name='username']/../..//span[contains(@class,'oxd-input-field-error-message') and text()='Required']"
+        },
+        "TestWebIdekuLogin.test_WebIdekuLogin0006": {
+            "password_required_error": "//input[@name='password']/../..//span[contains(@class,'oxd-input-field-error-message') and text()='Required']"
+        },
+        "TestWebIdekuLogin.test_WebIdekuLogin0007": {
+            "success_title": "//h6[contains(@class,'orangehrm-forgot-password-title') and text()='Reset Password link sent successfully']",
+            "success_content_01": "//p[text()='A reset password link has been sent to you via email.']",
+            "success_content_02": "//p[text()='You can follow that link and select a new password.']",
+            "success_note_title": "//p[text()='Note: ']",
+            "success_note_content": "//p[text()='If the email does not arrive, please contact your OrangeHRM Administrator.']"
+        }
+    },
+    "WebIdekuLoginMethod": {
+        "WebIdekuLogin.InputUsername": {
+            "username_input": "//input[@name='username']"
+        },
+        "WebIdekuLogin.InputPassword": {
+            "password_input": "//input[@name='password']"
+        },
+        "WebIdekuLogin.ClickLogin": {
+            "login_button": "//button[@type='submit']"
+        },
+        "WebIdekuLogin.ClickForgetPassword": {
+            "forget_password_button": "//p[contains(@class,'orangehrm-login-forgot-header')]"
+        },
+        "WebIdekuLoginResetPassword.InputUsername": {
+            "username_input": "//*[contains(@action,'requestResetPassword')]//input[@name='username']"
+        },
+        "WebIdekuLoginResetPassword.ClickCancel": {
+            "cancel_button": "//button[contains(@class,'forgot-password-button--cancel')]"
+        },
+        "WebIdekuLoginResetPassword.ClickResetPassword": {
+            "reset_button": "//button[contains(@class,'forgot-password-button--reset')]"
+        }
+    }
+}
