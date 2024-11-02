@@ -2,6 +2,9 @@
 WebIdeku login test automation cases
 
 # What you need to do before trigger
+## Install python3
+Make sure to install python3 and version higher than 3.11  
+
 ## Check install necessary pip list
 pip install -r requirenents.txt  
 
