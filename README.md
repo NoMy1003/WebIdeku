@@ -9,8 +9,8 @@ What you need to do before trigger:
 
 Trigger:
   [Run all login cases]
-    python RunTest.py -T WebIdekuLogin
+     python RunTest.py -T WebIdekuLogin
   [Run single login cases]
-    python RunTest.py -T WebIdekuLogin-0001
+     python RunTest.py -T WebIdekuLogin-0001
   [Run multiple login cases]
-    python RunTest.py -T WebIdekuLogin-0001,WebIdekuLogin-0002
+     python RunTest.py -T WebIdekuLogin-0001,WebIdekuLogin-0002
