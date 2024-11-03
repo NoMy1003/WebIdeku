@@ -22,3 +22,4 @@ numpy
 Appium-Python-Client
 pytz
 webdriver_manager
+msedge-selenium-tools
