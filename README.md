@@ -2,6 +2,9 @@
 WebIdeku login test automation cases
 
 # What you need to do before trigger
+## Make sure to run on Window OS
+Since Windows and Mac got different code operation method
+
 ## Install python3
 Make sure to install python3 and version higher than 3.11  
 
